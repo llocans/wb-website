@@ -1,6 +1,10 @@
 <template>
-  <section class="min-h-screen bg-black text-white flex flex-col justify-center items-center text-center px-4">
-    <img :src="logo" alt="Wireback Logo" class="w-40 md:w-60 object-contain mb-8 drop-shadow-2xl" />
+  <section class="hero-bg min-h-screen text-white flex flex-col justify-center items-center text-center px-4">
+    <img 
+    :src="logo" 
+    alt="Wireback Logo" 
+    class="w-40 md:w-60 object-contain mb-8 drop-shadow-[0_0_15px_rgba(128,0,255,0.6)]" 
+    />
 
     <h1 class="glitch-text text-5xl md:text-7xl font-bold tracking-wider">
       $WIREBACK
@@ -13,10 +17,28 @@
 </template>
 
 <script setup lang="ts">
-import logo from '@/assets/img/pfp.png'
+import logo from '@/assets/img/wojak.png'
 </script>
 
 <style scoped>
+.hero-bg {
+  background-image: url('@/assets/img/m5.jpg');
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: 0 0;
+  animation: scroll-bg 20s linear infinite alternate;
+}
+
+@keyframes scroll-bg {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+/* Glitch styling from previous step */
 .glitch-text {
   position: relative;
   color: #0ff;
