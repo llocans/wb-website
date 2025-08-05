@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import pfp from '../assets/img/pfp.png'
 </script>
 
