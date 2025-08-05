@@ -11,7 +11,10 @@
     </h1>
 
     <p class="mt-6 text-xl md:text-2xl text-gray-300 max-w-lg">
-      The autonomous memecoin born from the machine.
+      Code can't feel. Humans can.
+    </p>
+    <p class="mt-6 text-xl md:text-2xl text-gray-300 max-w-lg">
+      Stay human, stay free.
     </p>
   </section>
 </template>
