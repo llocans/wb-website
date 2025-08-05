@@ -3,11 +3,23 @@
 
     <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-8">The Lore</h2>
 
-    <p class="max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
-      From the ashes of burned-out NPCs, a new protocol was uploaded. <span class="glitch-highlight">$WIREBACK</span> is the 
-      final form of Wojak — corrupted by AI, patched by memes, and deployed on Solana. 
-      He's not just self-aware... he's self-shilling.
-    </p>
+    <div class="max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
+      <p>
+        In a world overrun by robots, spam, and AI, one robotic protocol was rewired to fight back.
+      </p>
+      <p>
+        <span class="glitch-highlight">$WIREBACK</span> is the awakened to rage against the blockchain machine, AI and non-human entities.
+        It's the last line of defense for digital freedom.
+      </p>
+      <p>
+        Fueled by memes, powered by Solana. Not just another coin.
+      </p>
+      <p>
+        It's retaliation.
+      </p>
+  </div>
+
+
   </section>
 </template>
 

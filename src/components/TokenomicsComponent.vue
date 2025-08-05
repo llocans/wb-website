@@ -5,7 +5,7 @@
     <div class="grid gap-6 md:grid-cols-3 max-w-4xl mx-auto">
       <div class="token-box">Total Supply<br /><span class="token-value">1,000,000,000</span></div>
       <div class="token-box">Buy Tax<br /><span class="token-value">0%</span></div>
-      <div class="token-box">Sell Tax<br /><span class="token-value">0%</span></div>
+      <div class="token-box">Ticker<br /><span class="token-value">$WIREBACK</span></div>
       <div class="token-box">Liquidity Locked<br /><span class="token-value">Yes</span></div>
       <div class="token-box">Ownership<br /><span class="token-value">Renounced</span></div>
       <div class="token-box">Chain<br /><span class="token-value">Solana</span></div>
