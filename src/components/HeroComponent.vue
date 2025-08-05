@@ -1,10 +1,12 @@
 <template>
   <section class="min-h-screen bg-black text-white flex flex-col justify-center items-center text-center px-4">
-    <img :src="logo" alt="Wireback Logo" class="w-36 md:w-56 object-contain mb-6 drop-shadow-lg" />
-    
-    <h1 class="text-4xl md:text-6xl font-bold tracking-wide glitch">$WIREBACK</h1>
-    
-    <p class="mt-4 text-lg md:text-xl text-gray-300 max-w-md">
+    <img :src="logo" alt="Wireback Logo" class="w-40 md:w-60 object-contain mb-8 drop-shadow-2xl" />
+
+    <h1 class="glitch-text text-5xl md:text-7xl font-bold tracking-wider">
+      $WIREBACK
+    </h1>
+
+    <p class="mt-6 text-xl md:text-2xl text-gray-300 max-w-lg">
       The autonomous memecoin born from the machine.
     </p>
   </section>
@@ -15,31 +17,55 @@ import logo from '@/assets/img/pfp.png'
 </script>
 
 <style scoped>
-.glitch {
+.glitch-text {
   position: relative;
   color: #0ff;
-  text-shadow: 1px 0 red, -1px 0 blue;
-  animation: glitch 2s infinite;
+  text-shadow: 3px 0 red, -3px 0 blue, 0 2px lime;
+  animation: glitch-flicker 2s infinite linear;
 }
 
-@keyframes glitch {
-  0% {
-    text-shadow: 1px 0 red, -1px 0 blue;
-  }
-  20% {
-    text-shadow: -2px 2px red, 2px -2px blue;
-  }
-  40% {
-    text-shadow: 1px -1px red, -1px 1px blue;
-  }
-  60% {
-    text-shadow: -1px -1px red, 1px 1px blue;
-  }
-  80% {
-    text-shadow: 0px 0px red, 0px 0px blue;
-  }
-  100% {
-    text-shadow: 1px 0 red, -1px 0 blue;
-  }
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(class);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  color: #0ff;
+  z-index: -1;
+}
+
+.glitch-text::before {
+  top: -2px;
+  text-shadow: -3px 0 magenta;
+  animation: glitch-before 1.5s infinite linear;
+}
+
+.glitch-text::after {
+  top: 2px;
+  text-shadow: 3px 0 cyan;
+  animation: glitch-after 1.2s infinite linear;
+}
+
+@keyframes glitch-flicker {
+  0% { text-shadow: 3px 0 red, -3px 0 blue, 0 2px lime; }
+  15% { text-shadow: -4px -2px red, 4px 2px blue, 0 0 lime; }
+  30% { text-shadow: 5px 0 red, -5px 0 blue, 0 4px lime; }
+  45% { text-shadow: -2px 2px red, 2px -2px blue, 0 0 lime; }
+  60% { text-shadow: 4px -2px red, -4px 2px blue, 0 2px lime; }
+  75% { text-shadow: -1px -1px red, 1px 1px blue, 0 -2px lime; }
+  100% { text-shadow: 3px 0 red, -3px 0 blue, 0 2px lime; }
+}
+
+@keyframes glitch-before {
+  0% { clip-path: inset(0% 0 80% 0); }
+  50% { clip-path: inset(20% 0 50% 0); transform: translateX(-3px); }
+  100% { clip-path: inset(10% 0 60% 0); transform: translateX(0); }
+}
+
+@keyframes glitch-after {
+  0% { clip-path: inset(50% 0 20% 0); }
+  50% { clip-path: inset(30% 0 40% 0); transform: translateX(3px); }
+  100% { clip-path: inset(60% 0 10% 0); transform: translateX(0); }
 }
 </style>
