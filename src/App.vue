@@ -11,7 +11,8 @@ import BuyComponent from './components/BuyComponent.vue'
     <HeroComponent />
     <TokenomicsComponent />
     <LoreComponent />
-    <SocialsComponent />
     <BuyComponent />
+    <SocialsComponent />
+
   </main>
 </template>

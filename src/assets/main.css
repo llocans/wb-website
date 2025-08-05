@@ -24,3 +24,30 @@ a,
 body {
   font-family: 'Russo One', sans-serif;
 }
+
+body {
+  font-family: 'Russo One', sans-serif;
+}
+
+/* Add this */
+.glitch-button {
+  background: #0ff;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border: 1px solid #0ff;
+  box-shadow: 0 0 10px #0ff;
+  transition: all 0.3s ease-in-out;
+}
+
+.glitch-button:hover {
+  background: black;
+  color: #0ff;
+  animation: glitch-glow 0.3s infinite;
+}
+
+@keyframes glitch-glow {
+  0% { box-shadow: 0 0 5px #0ff; }
+  50% { box-shadow: 0 0 15px #0ff, 0 0 5px red, 0 0 5px blue; }
+  100% { box-shadow: 0 0 5px #0ff; }
+}
