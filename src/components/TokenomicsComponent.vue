@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 px-4 bg-black text-white text-center">
+  <section class="py-18 px-4 bg-black text-white text-center">
     <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-10">Tokenomics</h2>
 
     <div class="grid gap-6 md:grid-cols-3 max-w-4xl mx-auto">

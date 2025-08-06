@@ -1,8 +1,8 @@
 <template>
-  <section class="py-16 px-4 bg-socials text-white text-center">
+  <section class="py-20 px-4 bg-socials text-white text-center">
     <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-10">Join the Community</h2>
 
-    <div class="grid gap-6 md:grid-cols-2 max-w-2xl mx-auto">
+    <div class="grid gap-6 md:grid-cols-2 max-w-2xl mx-auto mb-10">
       <!-- X -->
       <a
         href="https://x.com/wirebackwojak"
@@ -25,6 +25,9 @@
         Join Telegram
       </a>
     </div>
+
+    <h2 class="text-4xl md:text-5xl font-bold mb-10">Be part of the movement</h2>
+
   </section>
 </template>
 

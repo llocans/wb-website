@@ -1,5 +1,5 @@
 <template>
-  <section class="py-16 px-4 text-white text-center bg-lore">
+  <section class="py-18 px-4 text-white text-center bg-lore">
 
     <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-8">The Lore</h2>
 

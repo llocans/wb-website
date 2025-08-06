@@ -1,9 +1,9 @@
 <template>
-  <section class="py-20 px-4 bg-black text-white text-center">
-    <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-8">How to Buy</h2>
+  <section class="py-22 px-4 bg-black text-white text-center">
+    <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-8">Where to Buy</h2>
 
     <p class="max-w-2xl mx-auto text-lg md:text-xl leading-relaxed opacity-90 mb-2">
-      Buy $WIREBACK it instantly using these official links.  
+      Get <span class="glitch-highlight">$WIREBACK</span> instantly using these official links.  
     </p>
 
     <p class="max-w-2xl mx-auto text-lg md:text-xl leading-relaxed opacity-90 mb-10">
@@ -19,7 +19,7 @@
     class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
   >
     <img src="/icons/raydium.webp" alt="Raydium" class="w-5 h-5" />
-    Buy on Raydium
+    Raydium
   </a>
 
   <a
@@ -29,7 +29,7 @@
     class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
   >
     <img src="/icons/jupiter.webp" alt="Jupiter" class="w-5 h-5" />
-    Buy on Jupiter
+    Jupiter
   </a>
 
   <a
@@ -39,7 +39,7 @@
     class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
   >
     <img src="/icons/photon.webp" alt="Photon" class="w-5 h-5" />
-    Buy on Photon
+    Photon
   </a>
 </div>
 
@@ -52,7 +52,7 @@
     class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
   >
     <img src="/icons/axiom.ico" alt="Axiom" class="w-5 h-5" />
-    Buy on Axiom
+    Axiom
   </a>
 
   <a
@@ -62,7 +62,7 @@
     class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
   >
     <img src="/icons/dexscreener.jpg" alt="Dexscreener" class="w-5 h-5" />
-    Buy on Dexscreener
+    Dexscreener
   </a>
 </div>
 
@@ -101,9 +101,21 @@
   animation: glitch-flicker 2s infinite linear;
 }
 
+.glitch-highlight {
+  color: #0ff;
+  text-shadow: 1px 0 red, -1px 0 blue;
+  animation: glitch-glow 1s infinite linear;
+}
+
 @keyframes glitch-flicker {
   0% { text-shadow: 2px 0 red, -2px 0 blue; }
   50% { text-shadow: -2px 0 red, 2px 0 blue; }
   100% { text-shadow: 2px 0 red, -2px 0 blue; }
+}
+
+@keyframes glitch-glow {
+  0% { text-shadow: 0 0 4px #0ff; }
+  50% { text-shadow: 0 0 8px red, 0 0 8px blue; }
+  100% { text-shadow: 0 0 4px #0ff; }
 }
 </style>
