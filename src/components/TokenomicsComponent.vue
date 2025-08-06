@@ -55,16 +55,6 @@ function copyAddress() {
   background: linear-gradient(to bottom, #00ffff 0%, #001f3f 50%, #000000 100%);
 }
 
-  .glitch-button {
-    background: #0ff;
-    color: black;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-    border: 1px solid #0ff;
-    box-shadow: 0 0 10px #0ff;
-    transition: all 0.3s ease-in-out;
-  }
-
   .glitch-button:hover {
     background: black;
     color: #0ff;

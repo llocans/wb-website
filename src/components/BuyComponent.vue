@@ -72,16 +72,6 @@
 
 
 <style scoped>
-.glitch-button {
-  background: #0ff;
-  color: black;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-  border: 1px solid #0ff;
-  box-shadow: 0 0 10px #0ff;
-  transition: all 0.3s ease-in-out;
-}
-
 .glitch-button:hover {
   background: black;
   color: #0ff;
