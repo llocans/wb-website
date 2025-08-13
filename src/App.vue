@@ -4,8 +4,8 @@ import TokenomicsComponent from './components/TokenomicsComponent.vue'
 import LoreComponent from './components/LoreComponent.vue'
 import SocialsComponent from './components/SocialsComponent.vue'
 import BuyComponent from './components/BuyComponent.vue'
-import TopBarComponent from './components/TopBarComponent.vue'
 import ScrollToTopComponent from './components/ScrollToTopComponent.vue'
+import TopBarComponent from './components/TopBarComponent.vue'
 </script>
 
 <template>
