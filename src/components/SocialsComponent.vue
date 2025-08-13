@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 px-4 bg-socials text-white text-center">
+  <section id="SocialsComponent" class="py-20 px-4 bg-socials text-white text-center">
     <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-10">Join the Community</h2>
 
     <div class="grid gap-6 md:grid-cols-2 max-w-2xl mx-auto mb-10">

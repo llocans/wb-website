@@ -1,5 +1,5 @@
 <template>
-  <section class="py-22 px-4 bg-black text-white text-center">
+  <section id="BuyComponent" class="py-22 px-4 bg-black text-white text-center">
     <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-8">Where to Buy</h2>
 
     <p class="max-w-2xl mx-auto text-lg md:text-xl leading-relaxed opacity-90 mb-2">

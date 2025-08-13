@@ -1,23 +1,30 @@
 <template>
-  <section class="hero-bg min-h-screen text-white flex flex-col justify-center items-center text-center px-4">
-    <img 
-    :src="logo" 
-    alt="Wireback Logo" 
-    class="w-40 md:w-60 object-contain mb-8 drop-shadow-[0_0_15px_rgba(128,0,255,0.6)]" 
-    />
+  <section
+    id="HeroComponent"
+    class="hero-bg min-h-screen text-white text-center px-4 relative -mt-16"
+  >
+    <!-- offset content down by header height so it isn't covered -->
+    <div class="pt-16 flex flex-col justify-center items-center min-h-screen">
+      <img
+        :src="logo"
+        alt="Wireback Logo"
+        class="w-40 md:w-60 object-contain mb-8 drop-shadow-[0_0_15px_rgba(128,0,255,0.6)]"
+      />
 
-    <h1 class="glitch-text text-5xl md:text-7xl font-bold tracking-wider">
-      $WIREBACK
-    </h1>
+      <h1 class="glitch-text text-5xl md:text-7xl font-bold tracking-wider">
+        $WIREBACK
+      </h1>
 
-    <p class="mt-6 text-xl md:text-2xl text-gray-300 max-w-lg">
-      Code can't feel. Humans can.
-    </p>
-    <p class="mt-6 text-xl md:text-2xl text-gray-300 max-w-lg">
-      Stay human, stay free.
-    </p>
+      <p class="mt-6 text-xl md:text-2xl text-gray-300 max-w-lg">
+        Code can't feel. Humans can.
+      </p>
+      <p class="mt-2 text-xl md:text-2xl text-gray-300 max-w-lg">
+        Stay human, stay free.
+      </p>
+    </div>
   </section>
 </template>
+
 
 <script setup lang="ts">
 import logo from '@/assets/img/wojak.png'
