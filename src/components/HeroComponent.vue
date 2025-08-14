@@ -1,10 +1,7 @@
 <template>
-  <section
-    id="HeroComponent"
-    class="hero-bg min-h-screen text-white text-center px-4 relative -mt-16"
-  >
+  <section id="HeroComponent" class="hero-bg min-h-[calc(100vh+64px)] text-white text-center px-4 relative -mt-16 overflow-hidden">
     <!-- offset content down by header height so it isn't covered -->
-    <div class="pt-16 flex flex-col justify-center items-center min-h-screen">
+    <div class="pt-16 flex flex-col justify-center items-center min-h-[100vh]">
       <img
         :src="logo"
         alt="Wireback Logo"

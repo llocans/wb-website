@@ -1,6 +1,6 @@
 <template>
   <header
-    class="fixed top-0 inset-x-0 z-50 backdrop-blur-[2px] supports-[backdrop-filter]:bg-black/15"
+    class="fixed top-0 inset-x-0 z-50"
   >
     <nav class="w-full px-6 sm:px-8 md:px-12 lg:px-16 h-16 flex items-center justify-between text-white">
 
@@ -37,18 +37,20 @@
 </template>
 
 <script setup lang="ts">
-const HEADER_H = 64; // px, matches h-16
 
 function scrollTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+const HEADER_H = 64;
+const EXTRA = 64; // push under the header a little more
 function go(id: string) {
   const el = document.getElementById(id);
   if (!el) return;
-  const y = el.getBoundingClientRect().top + window.scrollY - HEADER_H - 8;
+  const y = el.getBoundingClientRect().top + window.scrollY - HEADER_H + EXTRA;
   window.scrollTo({ top: Math.max(y, 0), behavior: 'smooth' });
 }
+
 </script>
 
 <style scoped>
