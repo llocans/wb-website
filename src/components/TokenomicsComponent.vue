@@ -2,15 +2,15 @@
   <section id="TokenomicsComponent" class="py-26 px-4 text-white text-center">
     <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-12">Tokenomics</h2>
 
-    <div class="grid gap-6 md:grid-cols-3 max-w-4xl mx-auto">
+    <div class="grid gap-6 min-[380px]:grid-cols-2 md:grid-cols-3 max-w-[520px] sm:max-w-4xl mx-auto">
       <!-- 1) Total Supply (static) -->
-      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
+      <div class="token-box w-full min-h-[110px] flex flex-col items-center justify-center text-center">
         Total Supply<br />
         <span class="token-value">1,000,000,000</span>
       </div>
 
       <!-- 2) Market Cap (USD) replacing Buy Tax -->
-      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
+      <div class="token-box w-full min-h-[110px] flex flex-col items-center justify-center text-center">
         Market Cap (USD)<br />
         <span class="token-value">
           <template v-if="marketCapUsd !== null">{{ fmtUSD(marketCapUsd) }}</template>
@@ -19,31 +19,31 @@
       </div>
 
       <!-- 3) Ticker -->
-      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
+      <div class="token-box w-full min-h-[110px] flex flex-col items-center justify-center text-center">
         Ticker<br />
         <span class="token-value">$WIREBACK</span>
       </div>
 
       <!-- 4) Liquidity Locked -->
-      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
+      <div class="token-box w-full min-h-[110px] flex flex-col items-center justify-center text-center">
         Liquidity Locked<br />
         <span class="token-value">Yes</span>
       </div>
 
       <!-- 5) Buy Tax (moved to Ownership’s slot) -->
-      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
+      <div class="token-box w-full min-h-[110px] flex flex-col items-center justify-center text-center">
         Buy Tax<br />
         <span class="token-value">0%</span>
       </div>
 
       <!-- 6) Chain -->
-      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
+      <div class="token-box w-full min-h-[110px] flex flex-col items-center justify-center text-center">
         Chain<br />
         <span class="token-value">Solana</span>
       </div>
 
       <!-- Full-width box for contract address -->
-      <div class="md:col-span-3 token-box flex flex-col items-center text-center">
+      <div class="col-span-full md:col-span-3 token-box flex flex-col items-center text-center">
         <span class="break-all text-sm md:text-base text-white">
           {{ address }}
         </span>
