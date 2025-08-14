@@ -52,7 +52,7 @@
           @click="copyAddress"
           class="mt-4 px-5 py-2 glitch-button text-white text-sm rounded relative overflow-hidden"
         >
-          {{ copied ? 'Copied!' : 'Copy Coin Address' }}
+          {{ copied ? 'Copied!' : 'Copy' }}
         </button>
       </div>
     </div>

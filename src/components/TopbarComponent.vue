@@ -1,8 +1,8 @@
 <template>
   <header
-    class="fixed top-0 inset-x-0 z-50"
+    class="fixed top-0 inset-x-0 z-50 hidden lg:flex backdrop-blur-md bg-black/10"
   >
-    <nav class="w-full px-6 sm:px-8 md:px-12 lg:px-16 h-16 pt-8 flex items-center justify-between text-white">
+    <nav class="w-full px-6 sm:px-8 md:px-12 lg:px-16 h-16 flex items-center justify-between text-white">
       
 
       <!-- Left: Brand -->
