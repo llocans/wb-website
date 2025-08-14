@@ -57,6 +57,14 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+/* Mobile/tablet fix: no parallax, correct scale/position */
+@media (max-width: 768px) {
+  .bg-moon-stars-edit-img {
+    background-attachment: scroll;   /* turn off fixed */
+    background-position: top center; /* show more of the top area */
+    background-size: cover;          /* keep full-bleed without gaps */
+  }
+}
 
 @layer components {
   .buy-button {

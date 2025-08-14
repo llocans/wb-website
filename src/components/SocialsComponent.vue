@@ -2,7 +2,7 @@
   <section id="SocialsComponent" class="py-24 px-4 text-white text-center">
     <h2 class="text-4xl md:text-6xl font-bold glitch-text mb-16">Join the Community</h2>
 
-    <div class="flex flex-col md:flex-row justify-center items-center gap-6 max-w-2xl mx-auto mb-10">
+    <div class="flex flex-col md:flex-row justify-center items-center gap-7 max-w-2xl mx-auto mb-10">
 
       <!-- X -->
       <a
