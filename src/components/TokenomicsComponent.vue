@@ -149,6 +149,9 @@ onMounted(() => {
   font-size: 1.2rem;
   font-weight: 600;
   transition: transform 0.3s ease;
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 .token-box:hover {
   transform: scale(1.05);
