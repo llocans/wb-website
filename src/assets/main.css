@@ -29,21 +29,21 @@ body {
   font-family: 'Russo One', sans-serif;
 }
 
-/* Add this */
 .glitch-button {
-  background: #0ff;
-  color: black;
+  background-color: rgba(255, 255, 255, 0.05); /* transparent glass look */
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: #0ff;
   font-weight: bold;
   letter-spacing: 0.05em;
-  border: 1px solid #0ff;
-  box-shadow: 0 0 5px #0ff;
   transition: all 0.3s ease-in-out;
 }
 
 .glitch-button:hover {
-  background: black;
-  color: #0ff;
-  animation: glitch-glow 0.3s infinite;
+  border-color: #0ff;
+  box-shadow: 0 0 10px #0ff, 0 0 5px red, 0 0 5px blue;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 @keyframes glitch-glow {
@@ -57,3 +57,13 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+@layer components {
+  .buy-button {
+    @apply inline-flex items-center justify-center gap-x-2 rounded
+           w-full max-w-[240px] mx-auto px-6 py-3 text-base
+           sm:max-w-[260px]
+           md:w-[200px] md:mx-0 md:text-lg md:px-8
+  }
+}
+

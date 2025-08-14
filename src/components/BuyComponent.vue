@@ -11,12 +11,12 @@
     </p>
 
     <!-- First row -->
-<div class="flex flex-col md:flex-row justify-center gap-6 flex-wrap mb-6">
+<div class="flex flex-col md:flex-row justify-center items-center gap-6 flex-wrap mb-6">
   <a
     href="https://raydium.io/swap/?inputMint=sol&outputMint=29EyhwxrwUMp5JFSjAaTg78ffRn8S7DxtbzYjSVbbonk&referrer=JEDFcUSmhoddagfePzz2Xk2fmSHirWdE6xZwxJ8SPKtN"
     target="_blank"
     rel="noopener noreferrer"
-    class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
+    class="glitch-button buy-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
   >
     <img src="/icons/raydium.webp" alt="Raydium" class="w-5 h-5" />
     Raydium
@@ -26,47 +26,45 @@
     href="https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=29EyhwxrwUMp5JFSjAaTg78ffRn8S7DxtbzYjSVbbonk"
     target="_blank"
     rel="noopener noreferrer"
-    class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
+    class="glitch-button buy-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
   >
     <img src="/icons/jupiter.webp" alt="Jupiter" class="w-5 h-5" />
     Jupiter
   </a>
 
   <a
-    href="https://photon-sol.tinyastro.io/en/lp/91MajHDs4KKSmyBLngB8tmXD2uiuo9xruCwXmTd6mA7B?handle=292131710853f3f4ee3fa9"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
-  >
-    <img src="/icons/photon.webp" alt="Photon" class="w-5 h-5" />
-    Photon
-  </a>
-</div>
-
-<!-- Second row -->
-<div class="flex flex-col md:flex-row justify-center gap-6 flex-wrap">
-  <a
     href="https://axiom.trade/meme/91MajHDs4KKSmyBLngB8tmXD2uiuo9xruCwXmTd6mA7B"
     target="_blank"
     rel="noopener noreferrer"
-    class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
+    class="glitch-button buy-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
   >
     <img src="/icons/axiom.ico" alt="Axiom" class="w-5 h-5" />
     Axiom
   </a>
+</div>
 
+<!-- Second row -->
+<div class="flex flex-col md:flex-row justify-center items-center gap-6 flex-wrap">
   <a
     href="https://dexscreener.com/solana/91majhds4kksmyblngb8tmxd2uiuo9xrucwxmtd6ma7b"
     target="_blank"
     rel="noopener noreferrer"
-    class="glitch-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
+    class="glitch-button buy-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
   >
     <img src="/icons/dexscreener.jpg" alt="Dexscreener" class="w-5 h-5" />
     Dexscreener
   </a>
+
+  <a
+    href="https://www.mobyscreener.com/solana/29EyhwxrwUMp5JFSjAaTg78ffRn8S7DxtbzYjSVbbonk"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="glitch-button buy-button inline-flex items-center justify-center gap-x-2 px-8 py-3 text-lg rounded"
+  >
+    <img src="/icons/moby.svg" alt="Moby" class="w-5 h-5" />
+    Mobyscreener
+  </a>
 </div>
-
-
   </section>
 </template>
 

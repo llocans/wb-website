@@ -2,7 +2,7 @@
   <section id="SocialsComponent" class="py-24 px-4 text-white text-center">
     <h2 class="text-4xl md:text-6xl font-bold glitch-text mb-16">Join the Community</h2>
 
-    <div class="grid gap-6 md:grid-cols-2 max-w-2xl mx-auto mb-10">
+    <div class="justify-center items-center grid gap-6 md:grid-cols-2 max-w-2xl mx-auto mb-10 ">
       <!-- X -->
       <a
         href="https://x.com/wirebackwojak"
@@ -26,7 +26,7 @@
       </a>
     </div>
 
-    <h2 class="text-4xl md:text-5xl font-bold mb-20">Be part of the robotic meta</h2>
+    <h2 class="text-4xl md:text-5xl font-bold mb-20 py-16">Be part of the robotic meta</h2>
 
   </section>
 </template>
