@@ -1,6 +1,6 @@
 <template>
-  <section id="BuyComponent" class="py-22 px-4 bg-black text-white text-center">
-    <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-8">Where to Buy</h2>
+  <section id="BuyComponent" class="py-26 px-4 text-white text-center">
+    <h2 class="text-4xl md:text-6xl font-bold glitch-text mb-12">Where to Buy</h2>
 
     <p class="max-w-2xl mx-auto text-lg md:text-xl leading-relaxed opacity-90 mb-2">
       Get <span class="glitch-highlight">$WIREBACK</span> instantly using these official links.  

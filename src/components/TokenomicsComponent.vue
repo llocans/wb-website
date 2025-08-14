@@ -1,6 +1,6 @@
 <template>
-  <section id="TokenomicsComponent" class="py-18 px-4 bg-black text-white text-center">
-    <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-10">Tokenomics</h2>
+  <section id="TokenomicsComponent" class="py-26 px-4 text-white text-center">
+    <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-12">Tokenomics</h2>
 
     <div class="grid gap-6 md:grid-cols-3 max-w-4xl mx-auto">
       <!-- 1) Total Supply (static) -->

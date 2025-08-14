@@ -2,11 +2,12 @@
   <header
     class="fixed top-0 inset-x-0 z-50"
   >
-    <nav class="w-full px-6 sm:px-8 md:px-12 lg:px-16 h-16 flex items-center justify-between text-white">
+    <nav class="w-full px-6 sm:px-8 md:px-12 lg:px-16 h-16 pt-8 flex items-center justify-between text-white">
+      
 
       <!-- Left: Brand -->
       <button
-        class="font-display text-xl tracking-wide hover:glitch-hover transition-colors"
+        class="font-display text-2xl tracking-wide hover:glitch-hover transition-colors"
         @click="scrollTop"
         aria-label="Go to top"
       >
@@ -15,19 +16,19 @@
 
       <!-- Right: Section links -->
       <div class="flex items-center gap-5">
-        <button class="px-2 py-1 text-large hover:glitch-hover transition-colors"
+        <button class="px-2 py-1 text-xl hover:glitch-hover transition-colors"
                 @click="go('TokenomicsComponent')">
           Tokenomics
         </button>
-        <button class="px-2 py-1 text-large hover:glitch-hover transition-colors"
+        <button class="px-2 py-1 text-xl hover:glitch-hover transition-colors"
                 @click="go('LoreComponent')">
           Lore
         </button>
-        <button class="px-2 py-1 text-large hover:glitch-hover transition-colors"
+        <button class="px-2 py-1 text-xl hover:glitch-hover transition-colors"
                 @click="go('BuyComponent')">
           Where to Buy
         </button>
-        <button class="px-2 py-1 text-large hover:glitch-hover transition-colors"
+        <button class="px-2 py-1 text-xl hover:glitch-hover transition-colors"
                 @click="go('SocialsComponent')">
           Socials
         </button>

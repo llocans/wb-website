@@ -1,18 +1,33 @@
 <template>
-  <section id="LoreComponent" class="py-18 px-4 text-white text-center bg-lore">
+  <section id="LoreComponent" class="py-24 px-4 text-white text-center">
 
-    <h2 class="text-4xl md:text-5xl font-bold glitch-text mb-8">The Lore</h2>
+    <h2 class="text-4xl md:text-6xl font-bold glitch-text mb-12">The Lore</h2>
 
-    <div class="max-w-2xl mx-auto text-lg md:text-xl leading-relaxed">
+    <div class="max-w-2xl mx-auto text-lg md:text-2xl leading-relaxed">
       <p>
-        In a world overrun by robots, spam, and AI, one robotic protocol was rewired to fight back.
+        In a world overrun by robots, spam, and AI, 
       </p>
       <p>
-        <span class="glitch-highlight">$WIREBACK</span> is the awakened to rage against the blockchain machine, AI and non-human entities.
-        It's the last line of defense for digital freedom.
+        one protocol was rewired to fight back.
       </p>
       <p>
-        Fueled by memes, powered by Solana. Not just another coin.
+      ...
+      </p>
+      <p>
+        <span class="glitch-highlight">$WIREBACK</span> is the awakened to rage against the machine, AI and non-human entities.
+        It's the last line of defense for freedom.
+      </p>
+      <p>
+      ...
+      </p>
+      <p>
+        Fueled by memes, powered by Solana. 
+      </p>
+      <p>
+      Not just another coin.
+      </p>
+      <p>
+      ...
       </p>
       <p>
         It's retaliation.
