@@ -4,13 +4,13 @@
 
     <div class="grid gap-6 md:grid-cols-3 max-w-4xl mx-auto">
       <!-- 1) Total Supply (static) -->
-      <div class="token-box">
+      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
         Total Supply<br />
         <span class="token-value">1,000,000,000</span>
       </div>
 
       <!-- 2) Market Cap (USD) replacing Buy Tax -->
-      <div class="token-box">
+      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
         Market Cap (USD)<br />
         <span class="token-value">
           <template v-if="marketCapUsd !== null">{{ fmtUSD(marketCapUsd) }}</template>
@@ -19,25 +19,25 @@
       </div>
 
       <!-- 3) Ticker -->
-      <div class="token-box">
+      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
         Ticker<br />
         <span class="token-value">$WIREBACK</span>
       </div>
 
       <!-- 4) Liquidity Locked -->
-      <div class="token-box">
+      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
         Liquidity Locked<br />
         <span class="token-value">Yes</span>
       </div>
 
       <!-- 5) Buy Tax (moved to Ownership’s slot) -->
-      <div class="token-box">
+      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
         Buy Tax<br />
         <span class="token-value">0%</span>
       </div>
 
       <!-- 6) Chain -->
-      <div class="token-box">
+      <div class="token-box max-w-sm md:max-w-none mx-auto md:mx-0">
         Chain<br />
         <span class="token-value">Solana</span>
       </div>
