@@ -12,10 +12,12 @@ import TopBarComponent from './components/TopBarComponent.vue'
   <main class="bg-black text-white">
     <TopBarComponent />
     <HeroComponent />
-    <TokenomicsComponent />
-    <LoreComponent />
-    <BuyComponent />
-    <SocialsComponent />
+    <section class="bg-moon-stars-edit-img">
+      <TokenomicsComponent />
+      <LoreComponent />
+      <BuyComponent />
+      <SocialsComponent />
+    </section>
 
   </main>
   <ScrollToTopComponent />

@@ -51,3 +51,9 @@ body {
   50% { box-shadow: 0 0 15px #0ff, 0 0 5px red, 0 0 5px blue; }
   100% { box-shadow: 0 0 5px #0ff; }
 }
+
+.bg-moon-stars-edit-img {
+  background: url('@/assets/img/moon-stars-edit-n.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
