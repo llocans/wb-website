@@ -66,3 +66,10 @@ body {
            md:w-[200px] md:mx-0 md:text-lg md:px-8
   }
 }
+
+@layer components {
+  .social-button {
+    @apply w-full max-w-[220px] mx-auto
+           md:w-auto md:max-w-[260px] md:mx-0 md:justify-self-center;
+  }
+}
