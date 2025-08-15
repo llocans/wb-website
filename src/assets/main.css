@@ -110,19 +110,31 @@ body {
   }
 }
 
+/* =============================
+   Backgrounds for section
+   ============================= */
 .bg-moon-stars-edit-img {
-  background: url('@/assets/img/moon-stars-edit-n.png') no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #000; /* safe fallback */
 }
 
-/* Mobile: use tall/long image */
+/* Desktop & large screens (>= 769px): wide image, fixed */
+@media (min-width: 769px) {
+  .bg-moon-stars-edit-img {
+    background-image: url('@/assets/img/moon-stars-edit-n.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+  }
+}
+
+/* Mobile (<= 768px): tall/long image, shifted right a bit */
 @media (max-width: 768px) {
   .bg-moon-stars-edit-img {
-    background: url('@/assets/img/moon-stars-edit-pho.png') no-repeat 40% top !important;
+    background-image: url('@/assets/img/moon-stars-edit-pho.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 40% top !important; /* tweak 20–50% to taste */
     background-size: cover !important;
     background-attachment: scroll !important;
-    background-repeat: no-repeat !important;
-    background-color: #000;
   }
 }

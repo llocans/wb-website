@@ -27,7 +27,7 @@
       </a>
     </div>
 
-    <h2 class="text-4xl md:text-5xl font-bold mb-20 py-16">Be part of the robotic meta</h2>
+    <h2 class="text-4xl md:text-5xl font-bold mb-20 py-16">Be part of the robotic meta.</h2>
 
   </section>
 </template>
