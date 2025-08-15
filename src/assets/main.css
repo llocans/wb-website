@@ -25,10 +25,6 @@ body {
   font-family: 'Russo One', sans-serif;
 }
 
-body {
-  font-family: 'Russo One', sans-serif;
-}
-
 .glitch-button {
   background-color: rgba(255, 255, 255, 0.05); /* transparent glass look */
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -52,13 +48,6 @@ body {
   100% { box-shadow: 0 0 5px #0ff; }
 }
 
-.bg-moon-stars-edit-img {
-  background: url('@/assets/img/moon-stars-edit-n.png') no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-
 @layer components {
   .buy-button {
     @apply inline-flex items-center justify-center gap-x-2 rounded
@@ -72,5 +61,20 @@ body {
   .social-button {
     @apply w-full max-w-[220px] mx-auto
            md:w-auto md:max-w-[260px] md:mx-0 md:justify-self-center;
+  }
+}
+
+.bg-moon-stars-edit-img {
+  background: url('@/assets/img/moon-stars-edit-n.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Mobile fix: remove fixed attachment and ensure proper scaling */
+@media (max-width: 768px) {
+  .bg-moon-stars-edit-img {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center; /* change to 'center top' if you prefer anchoring to the top */
   }
 }
